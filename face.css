@@ -1,0 +1,56 @@
+*{
+    
+    background-size: cover;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 228, 193);
+}
+.hed1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+#con1{
+    letter-spacing: 2px;
+    font-family:sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.form{
+    border-width: 70px;
+    border-color: white;
+    background-color: white;
+    margin-top: -210px;
+    float: right;
+
+}
+.form1{
+    border:solid white;
+    border-radius: 5px,5px;
+    border-inline-width: 20px;
+    border-radius: 5px;
+
+}
+.bt1{
+ border-radius: 5px;
+   background-color: blue;
+   color: white;
+   width: 180px;
+}
+.bt2{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 180px;
+}
+.emailorph,#pass{
+    border-radius: 5px;
+    width: 180px;
+}
+#link1{
+    color: blue;
+    text-align: center;
+}
