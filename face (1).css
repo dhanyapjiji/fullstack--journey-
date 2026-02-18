@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+}
+.text-box {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.hed1{
+
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 396px;
+    text-align: center;
+}
+
+#con1{
+    letter-spacing: 2px;
+    font-family:sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.form1{
+    border-width: 70px;
+    border-color: black;
+    
+   
+
+}
+.form{
+    border:solid white;
+    border-radius: 5px,5px,5px,5px;
+    border-inline-width: 20px;
+    border-radius: 5px;
+   background-color: white;
+   width: 350px;
+   height:300px;
+   margin-top: -250px;
+   float: right;
+}
+.bt1{
+    cursor: pointer;
+ border-radius: 5px;
+   background-color: blue;
+   color: white;
+   width: 180px;
+}
+.bt1:hover{
+   background-color: red;
+}
+.fa-facebook{
+    color: white;
+    background: blue;
+}
+.fa{
+    font-size: 20px;
+    text-decoration: none;
+     text-align: center;
+     margin: 5px,2px;
+}
+
+.bt2{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 180px;
+}
+.emailorph,#pass{
+    border-radius: 5px ;
+    width: 100px;
+     border-color: aqua ;
+    font-size: 16px;
+    padding: 14px;
+    margin: 8px 0;
+
+}
+#link1{
+    color: blue;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .main-wrapper {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .text-box {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .hed1 {
+        font-size: 45px;
+    }
+
+    #con1 {
+        font-size: 18px;
+    }
+
+    .form-container {
+        width: 100%; /* Form becomes full width of its container */
+        max-width: 400px;
+    }
+}
