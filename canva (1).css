@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    background-color: white;
+
+}
+.mainpage{
+    background-color:blue ;
+    color: white;
+    background-size: auto;
+    height: 90vh;
+}
+.hed{
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(37, 18, 212);
+    font-style: italic;
+}
+.container1{
+        padding: 0px;
+        text-align: center;
+        margin-top: -65px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:16px;
+}
+.nav1,.nav2,.nav3{
+    position: relative;
+    display: inline-block;
+    
+}
+.bt1,.bt2,.bt3,.bt4,.bt5,.bt6{
+    border: none;
+    background: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.list1,.list2,.list3{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+
+  }
+  a{
+    text-decoration: none;
+  }
+ .logmain{
+           float: right;
+           margin-top: -20px;
+ }
+ .bt7{
+    width: 20px;
+    color: black;
+    background-color: white;
+    border-radius:8px ;
+    border: violet bold 8px;
+    font-weight: bolder;
+ }
+.bt8{
+    color: white;
+    background-color: violet;
+    border-radius: 8px;
+}
+  .nav1:hover .list1, .nav2:hover .list2,.nav3:hover .list3{display: block;}
+.bt1:hover,.bt2:hover,.bt3:hover,.bt4:hover,.bt5:hover,.bt6:hover{
+    border: 8px  rgb(169, 188, 252);
+    color: rgb(127, 22, 231);
+    background-color: rgb(211, 169, 250);
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    float: right;
+
+}
+.digitaldesign{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 6;
+}
+.digitaldesign:hover .dropdown{
+    display: block;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+
+ }
