@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+
+    text-align: center;
+}
+.hed1{
+
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.container1{
+       background-color: rgb(196, 29, 29);
+       border-bottom: 10px solid grey;
+       padding: 20px 0;
+       
+}.nav1 {
+    clear: both; 
+    /* float: left;  <-- REMOVE THIS to allow margin: auto to work */
+    padding: 10px 0;
+    margin: 20px auto 0 auto; 
+    background-color: rgb(235, 109, 109);
+    width: 90%;
+    display: flex; 
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.btmenu{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+.list1 {
+    display: none;
+    text-decoration:none;
+    position:absolute ;
+    background-color: brown;
+    z-index: 10;
+    min-width: 180px;
+    top: 100%; /* Makes menu appear right under the button */
+    left: 0;
+    text-align: left;
+    padding: 10px;
+}
+.btmenu:hover .list1{background-color: #fcc2c2;
+    display: block;
+}
+.main1{
+    
+    background:url(chicking.jfif);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;  /* Keeps the center of the image visible */
+    background-repeat: no-repeat;
+}
+.symbol{
+    float: right;
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    padding: 10px;
+ }
+ .symbol button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%; /* Makes them circular */
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook {
+    background-color: #3b5998;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.symbol button:hover {
+    transform: translateY(-3px); /* Lifts button up slightly */
+    filter: brightness(1.2);
+}
+.list1 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.list1 a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bt1~{
+background-color: #ff0000;
+}
+.bt1~:hover{
+    background-color: #fcc2c2;
+}
