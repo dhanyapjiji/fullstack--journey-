@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("images.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color: aqua;
+    width: 350px;
+    height: 200px;
+    border: solid  black ;
+    box-shadow:5px 5px 10px rgba(209, 70, 70, 0.8);
+    margin: 90px auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.date-of{
+
+    width: 250px;
+    height: 50px;
+    background-color: aliceblue;
+    border: solid 5px black;
+
+}
+.time{
+    width: 250px;
+    height: 50px;
+    background-color: aliceblue;
+    border: solid 5px black;
+
+}
