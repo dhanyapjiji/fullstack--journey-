@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers vertically */
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url("download\ \(1\).jfif");
+
+    background-position: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 350px;
+    height: auto; /* Changed to auto for better content fit */
+    min-height: 250px;
+    
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.main:hover {
+    transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+#num {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+#num:focus {
+    border: 2px solid #9b59b6;
+    box-shadow: 0 0 10px rgba(155, 89, 182, 0.5);
+}
+
+.but {
+    margin-top: 20px;
+    padding: 10px 25px;
+    height: auto;
+    width: auto;
+    min-width: 100px;
+    border: none;
+    border-radius: 50px; /* Pill shape */
+    background: #e67e22; /* Cracker orange */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(230, 126, 34, 0.4);
+    transition: all 0.2s ease;
+}
+
+.but:active {
+    transform: scale(0.9); /* "Pop" click effect */
+    background: #d35400;
+}
+
+.but:hover {
+    background: #ff9f43;
+    box-shadow: 0 6px 20px rgba(255, 159, 67, 0.6);
+}
