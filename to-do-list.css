@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0,0,.3);
+}
+.nav2{
+    float:right;
+}
+.nav1 input[type=text]{
+      width: 60%;
+      height: 40px;
+      margin-left: 20px;
+      font-family: 'Courier New', Courier, monospace;
+}
+.bt1{
+    height: 40px;
+    border-radius: 5px;
+}
+.bt3{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 8px;
+}
+li{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: bisque;
+    text-transform: capitalize;
+}
+ul li.checked {
+    color: #888;
+    text-decoration: line-through;
+    
+
+  }
+  
+  /* Use a pseudo-element to add a checkmark if you like! */
+  ul li.checked::before {
+    content: '✓ ';
+
+  }
+  .close{
+    color: rgb(240, 230, 230);
+    background-color:red ;
+    width: 20px;
+    height: 30px;
+  }

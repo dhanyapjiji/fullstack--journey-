@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T0-DO-LIST</title>
+    <link rel="stylesheet" href="to-do-list.css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="hed">TO-DO-LIST</h1>
+        <div class="container1">
+         <div class="nav1">
+            <input type="text" id="t1" placeholder="Title....">
+            <button  type="button" class="bt1" id="bt1" onclick="addElement()">Add</button>
+         </div>
+            <div class="nav2">
+            <button type="button" class="bt2" id="bt2" onclick="saveAll()">Save</button>
+            <button type="button"class="bt3" id="bt3"  onclick="clearAll()">Clear</button>
+         </div>
+         
+         <div class="list">
+            <ul id="un-list">
+
+            </ul>
+         </div>
+        </div>
+    </div>
+   <script src="to-do-list.js"></script> 
+</body>
+</html>
