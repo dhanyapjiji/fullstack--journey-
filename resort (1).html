@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEACK PARADISE RESORT</title>
+    <link rel="stylesheet" href="resort.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="logo-link" href="#">
+            <img src="logo.jpg" alt="Peak Paradise Logo" class="main-logo">
+        </a>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Rooms</a>
+            <a href="#">Dining</a>
+           
+            <button class="book-btn" onclick="toggleBooking()" >Book Now</button>
+        
+        </div>
+    </nav>
+    <div class="booking-bar" id="bookingBar">
+        <div class="input-group">
+            <label>Check-in</label>
+            <input type="date" id="checkin">
+        </div>
+        <div class="input-group">
+            <label>Check-out</label>
+            <input type="date" id="checkout">
+        </div>
+        <div class="input-group">
+            <label>Guests</label>
+            <select id="guests">
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4+">4+ Guests</option>
+            </select>
+        </div>
+        <button class="book-btn" onclick="sendWhatsApp()">Book Now</button>
+    </div>
+    <section class="hero">
+        <div class="overlay-content">
+            <h1 class="hed">Experience the Nature</h1>
+            <p>Escape to a world of tranquility and luxury.</p>
+            <div class="slider-controls">
+                <a class="preview" onclick="preview()">&#10094;</a>
+                <a class="next" onclick="next()">&#10095;</a>
+            </div>
+        </div>
+        <img id="slides" src="img1.jpg" alt="Resort View">
+    </section>
+ <script src="resort.js"></script>  
+ <a href="https://wa.me/8590332432?text=Hello!%20I'm%20interested%20in%20booking%20a%20stay%20at%20Peak%20Paradise." 
+   class="whatsapp-float" 
+   target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+</a> 
+</body>
+</html>
